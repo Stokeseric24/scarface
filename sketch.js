@@ -12,8 +12,6 @@ function draw() {
   fill(130,200,127,scarface); // an RGB color for the inside of the circle (the last number refers to transparency (min. 0, max. 255))
   ellipse(mouseX,mouseY,200,150); // center of canvas, 20px dia
   rect(150,scarface,150,200); 
- 
-  fill(49,77,132)
 }
 
 
@@ -21,3 +19,4 @@ function mousePressed()  {
 if (scarface>=100)
 {sandy=0} else 
 {scarface=scarface+1;}
+}
